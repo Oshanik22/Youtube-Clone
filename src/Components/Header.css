@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+.header__logo {
+    height: 25px;
+    object-fit: contain;
+    margin-left: 2vw;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.header__inputButton {
+    width: 50px !important; 
+    background-color: #eff2f5;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    border-radius: 999px;
+    margin-left: 10px;
+    padding: 10px;
+    z-index: 100;
+}
+.hiddenButton {
+    display: none;
+}
+
+.header__input > form {
+    flex: 1;
+    display: flex;
+}
+
+.header__searchField {
+    flex: 1;
+    border: none;
+    background-color: #eff2f5;
+    outline-width: 0;
+    border-radius: 999px;
+    padding: 13px;
+}
+
+.header__icon {
+    margin-right: 8px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
